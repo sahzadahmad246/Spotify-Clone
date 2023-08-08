@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif; 
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: auto;
+    /* background: red; */
+    display: flex;
+    position: relative;
+}
+section .right{
+    width: 76%;
+    height: auto;
+    background: #000;
+    
+}
+section .left{
+    width: 24%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    /* position: absolute; */
+    position: sticky;
+    top: 0;
+}
+
+/* designing menu */
+.menu .menu-top{
+    width: 95%;
+    position: sticky;
+    top: 0;
+    /* z-index: 0; */
+    background: #121212;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 1px; */
+    border-radius: 9px;
+}
+.menu-top li{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+   margin-left: 23px;
+    
+    list-style: none;
+}
+.menu-top li i{
+    margin-right: 15px;
+}
+
+/* designing library section */
+.menu .library{
+    height: 75vh;
+    width: 95%;
+    background: #121212;
+    margin: 10px auto;
+    border-radius: 9px;
+    position: sticky;
+    left: 0;
+    z-index: 0;
+}
+.library-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.library-top .LT-left i, span{
+    /* padding: 0px 6px; */
+    margin-right: 15px;
+}
+.LT-right i{
+    margin-left: 20px;
+}
+.playlist-text {
+    margin-left: 30px;
+    background: #2e2e2e;
+    width: 80px;
+    /* text-align: center; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.LM{
+    display: flex;
+}
+.LM i{
+    margin-left: 19px;
+}
+.playlist-box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.playlist-box{
+    display: flex;
+    margin: 0px 20px;
+}
+.some-text{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+}
+.some-text p{
+    font-size: 11px;
+    padding: 6px 0px;
+    font-weight: lighter;
+}
+
+li, p, i:hover{
+    cursor: pointer;
+}

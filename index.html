@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+
+    <script
+      src="https://kit.fontawesome.com/629cec093b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="left.css" />
+    <link rel="stylesheet" href="right.css" />
+    
+  </head>
+  <body>
+    <section class="s1">
+      <div class="left" id="stickyLeft">
+        <div class="menu">
+          <ul class="menu-top">
+            <li class="home"><i class="fa-solid fa-house"></i>Home</li>
+            <li class="search"><i class="fa-solid fa-magnifying-glass"></i>Search</li>
+            
+          </ul>
+          <div class="library">
+            <div class="library-top">
+              <div class="LT-left">
+                <i class="fa-solid fa-book"></i><span>Library</span>
+              </div>
+              <div class="LT-right">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="playlist-text">
+              <p class="playlist">Playlist</p>
+            </div>
+            <div class="library-top">
+              <div class="LT-left">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="LM">
+                <p>Recent</p>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="playlist-box">
+              <img src="../images/playlist.jpg" alt="" />
+              <div class="some-text">
+                <h5>favorite Songs</h5>
+                <p>Playlist · Shahzad Ahmad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="internal-right">
+          <div class="greeting">
+            <h1 id="greeting1"></h1>
+            <div class="acc-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <div class="recently-played">
+            <div class="RP-boxes" class="songItems">
+              <div class="RP-img">
+                <img src="../images/playlist.jpg" alt="" />
+              </div>
+              <div class="RPS-name"><h3 class="songName"></h3></div>
+              <div class="play" id="spectre2">
+                <i id="pIcon" class="fa-solid fa-play"></i>
+              </div>
+            </div>
+            <div class="RP-boxes" class="songItems">
+              <div class="RP-img">
+                <img src="../images/alone.jpg" alt="" />
+              </div>
+              <div class="RPS-name"><h3 class="songName"></h3></div>
+              <div class="play"><i id="pIcon"  class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="RP-boxes" class="songItems">
+              <div class="RP-img">
+                <img src="../images/zulfon.jpg" alt="" />
+              </div>
+              <div class="RPS-name"><h3 class="songName"></h3></div>
+              <div id="play-btn" class="play">
+                <i id="pIcon"  class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="recently-played">
+            <div class="RP-boxes" class="songItems">
+              <div class="RP-img">
+                <img src="../images/noway.jpg" alt="" />
+              </div>
+              <div class="RPS-name"><h3 class="songName">No Way</h3></div>
+              <div class="play"><i id="pIcon"  class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="RP-boxes" class="songItems" id="rpBoxes">
+              <div class="RP-img">
+                <img src="../images/play.jpg" alt="" />
+              </div>
+              <div class="RPS-name"><h3 class="songName">Play</h3></div>
+              <div class="play"><i id="pIcon"  class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="RP-boxes" class="songItems">
+              <div class="RP-img">
+                <img src="../images/unity.jpg" alt="" />
+              </div>
+              <div class="RPS-name"><h3 class="songName">Unity</h3></div>
+              <div class="play"><i id="pIcon"  class="fa-solid fa-play"></i></div>
+            </div>
+          </div>
+          <div class="recommended">
+            <div class="top-recommend">
+              <h2>Recommended for you</h2>
+              <p>Show all</p>
+            </div>
+            <div class="recommend-boxes">
+              <div class="R-box" class="songItems" >
+                <img src="../images/Kesariya.jpg" alt="" />
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <h3 class="songName">Kesariya</h3>
+                <p>Arijit</p>
+              </div>
+              <div class="R-box" class="songItems" class="RP-boxes" class="songItems">
+                <img src="../images/khairiyat.jpg" alt="" />
+                <div class="play"><i id="khairiyat" class="fa-solid fa-play"></i></div>
+                <h3 class="songName">Khairiyat</h3>
+                <p>Arijit</p>
+              </div>
+              <div class="R-box" class="songItems" class="RP-boxes" class="songItems">
+                <img src="../images/play.jpg" alt="" />
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <h3 class="songName">Play</h3>
+                <p>Alan Walker</p>
+              </div>
+              <div class="R-box" class="songItems" class="RP-boxes" class="songItems">
+                <img src="../images/strongest.jpg" alt="" />
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <h3 class="songName">Strongest</h3>
+                <p>Alan Walker</p>
+              </div>
+            </div>
+          </div>
+          <div class="recommended">
+            <div class="top-recommend">
+              <h2>Best of Alan Walker</h2>
+              <p>Show all</p>
+            </div>
+            <div class="recommend-boxes">
+              <div class="R-box" class="songItems">
+                <img src="../images/playlist.jpg" alt="" />
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <h3 class="songName">The Spectre</h3>
+                <p>Alan Walker</p>
+              </div>
+              <div class="R-box" class="songItems" class="RP-boxes" class="songItems">
+                <img src="../images/unity.jpg" alt="" />
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <h3 class="songName">Unity</h3>
+                <p>Alan Walker</p>
+              </div>
+              <div class="R-box" class="songItems" class="RP-boxes" class="songItems">
+                <img src="../images/melody.jpg" alt="" />
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <h3 class="songName">Space Melody</h3>
+                <p>Alan Walker</p>
+              </div>
+              <div class="R-box" class="songItems" class="RP-boxes" class="songItems">
+                <img src="../images/faded.jpg" alt="" />
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <h3 class="songName">Faded</h3>
+                <p>Alan Walker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bottom">
+      <div class="bottom-boxes" id="bottom-left">
+        <img src="../images/agarTum.jpg" id="current-cover" alt="">
+        <div class="BL-text">
+          <h4 id="current-music-name">Agar Tum</h4>
+          <p id="current-author">Arijit Singh</p>
+        </div>
+        <i class="fa-solid fa-heart"></i>
+      </div>
+      <div class="bottom-boxes" id="bottom-mid">
+        <div class="BM-icons">
+          
+          <i class="fa-solid fa-backward-step" id="preSong"></i>
+          <i class="fa-solid fa-play"id="masterPlay2" class="masterPlay2"></i>
+          <i class="fa-solid fa-forward-step" id="nextSong"></i>
+          
+        </div>
+        <div class="bottom-mid-bottom">
+          <p id="0-duration">00:00</p>
+          <input  type="range" id="my-progress" name="range" value="0" min="0" max="100"></input>
+          
+          <p id="total-duration">6:19</p>
+        </div>
+
+      </div>
+      <div class="bottom-boxes" id="bottom-right">
+        <i class="fa-solid fa-volume-high" id="sound"></i>
+        <input type="range" name="range" id="volumeRange"value="55" min="0" max="100">
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+  <script src="index2.js"></script>
+  <script src="index3.js"></script>
+</html>
